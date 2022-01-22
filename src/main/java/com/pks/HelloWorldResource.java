@@ -9,6 +9,6 @@ public class HelloWorldResource {
 	//http://localhost:8080/springboot-110/message
 	@GetMapping("/message")
 	public String welcomeMessage() {
-		return "Welcome to Sprint Boot V 2.";
+		return "Welcome to Sprint Boot V 3.";
 	}
 }
