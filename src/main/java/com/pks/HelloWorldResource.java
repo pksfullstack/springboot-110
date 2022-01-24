@@ -10,6 +10,6 @@ public class HelloWorldResource {
 	// - docker - http://localhost:8085/message
 	@GetMapping("/message")
 	public String welcomeMessage() {
-		return "Welcome to Sprint Boot V 6.";
+		return "Welcome to Sprint Boot V 7.";
 	}
 }
