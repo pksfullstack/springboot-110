@@ -6,7 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldResource {
 	
-	//http://localhost:8080/springboot-110/message
+	// - local  - http://localhost:8080/springboot-110/message
+	// - docker - http://localhost:8085/message
 	@GetMapping("/message")
 	public String welcomeMessage() {
 		return "Welcome to Sprint Boot V 6.";
