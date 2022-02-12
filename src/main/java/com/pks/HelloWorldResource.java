@@ -14,7 +14,7 @@ public class HelloWorldResource {
 	@GetMapping("/message")
 	public String welcomeMessage() {
 		try {
-			return "Welcome to Sprint Boot V 17 : " + InetAddress.getLocalHost().getHostAddress();
+			return "Welcome to Sprint Boot V 19 : " + InetAddress.getLocalHost().getHostAddress();
 		} catch (UnknownHostException e) {
 			e.printStackTrace();
 		}
